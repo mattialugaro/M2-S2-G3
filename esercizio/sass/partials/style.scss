@@ -1,0 +1,63 @@
+@import "./partials/variables";
+@import "./partials/spacing";
+@import "./partials/button";
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: $p-i;
+  background-color: antiquewhite;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+div > a {
+  text-decoration: none;
+  color: brown;
+  font-weight: 700;
+  font-size: $f20;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  background-color: #640fc5;
+  color: $txt-col;
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.sub-title {
+  font-size: $f20;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.grid {
+  display: flex;
+  padding-inline: $p-i;
+  margin-block: 30px;
+  gap: 10px;
+}

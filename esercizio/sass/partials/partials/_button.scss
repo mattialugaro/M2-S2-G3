@@ -1,0 +1,20 @@
+.btn {
+  border-radius: 10px;
+  color: $txt-col;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 14px;
+
+  &-first {
+    background-color: $btn-blue;
+    border-color: $btn-blue;
+  }
+  &-second {
+    background-color: $btn-orange;
+    border-color: $btn-orange;
+  }
+  &-third {
+    background-color: $btn-green;
+    border-color: $btn-green;
+  }
+}
